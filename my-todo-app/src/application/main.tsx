@@ -1,18 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './global.css';
 import App from './App';
+import Router from './router/Router'; 
+import { AuthProvider } from './contexts/AuthContext';
 import { ThemeProvider } from '../theme/theme-provider';
-import Router from './router/Router';
-import { Toaster } from 'sonner';
+import './index.css'; 
 
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App>
-      <ThemeProvider>
-        <Router />
-      </ThemeProvider>
-      <Toaster />
-    </App>
+    <AuthProvider>
+      <App>
+        <ThemeProvider>
+          <Router />
+        </ThemeProvider>
+      </App>
+    </AuthProvider>
   </React.StrictMode>
 );
