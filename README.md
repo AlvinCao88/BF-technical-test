@@ -64,23 +64,25 @@ This technical test involves implementing a TODO application API that will be co
 There are no strict restrictions on the implementation. The goal is to demonstrate your knowledge and skills. Here are some suggestions for potential enhancements:
 
 #### Backend Enhancements
-- Implement a database (e.g., MongoDB, PostgreSQL, MySQL)
-- Add user authentication and authorization
-- Implement data validation and error handling
+- Implement a database (e.g., MongoDB, PostgreSQL, MySQL) X
+- Add user authentication and authorization X
+- Implement data validation and error handling 1/2
 - Add pagination for the todo list
-- Implement sorting and filtering capabilities
+- Implement sorting and filtering capabilities 
 - Add categories or tags for todos
 - Implement due dates and reminders
 - Add search functionality
 
 #### Frontend Enhancements
-- Add a modern UI framework (e.g., Material-UI, Tailwind CSS)
+- Add a modern UI framework (e.g., Material-UI, Tailwind CSS) X
 - Implement drag-and-drop functionality for reordering todos
 - Add dark/light theme support
-- Implement real-time updates using WebSocket
+- Implement real-time updates using WebSocket 1/2
 - Add animations and transitions
 - Implement responsive design for mobile devices
 - Add keyboard shortcuts
 - Implement undo/redo functionality
 
 Feel free to implement any of these suggestions or come up with your own ideas to showcase your skills!
+
+I've added the env file for testing in the email provided (Alvin) for the backend
